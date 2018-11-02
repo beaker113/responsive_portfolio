@@ -22,22 +22,29 @@
 
 <div id="main" class="container">
     <section class="main-container">
-    <h1>About me</h1>
-    
-    <img src="http://www.toonbarn.com/wordpress/wp-content/uploads/2014/03/wtVv8F5-658x502.png"
-    class="mypic" alt="catbug">
-
-    <p>I was born outside of Atlanta, Georgia and attended 
-        Auburn University with a major in hotel and 
-        restaurant management. After eight successful years
-        in the service industry working positions from hotels and restaurants
-        to catering services, I have found myself looking to
-        enter the tech industry.</p>
-    <p>
-        I was a member of Delta Kappa Epsilon fraternity at Auburn university,
-        often excelled in my classes, and was a member of the championship
-        intermural bowling team.    
-    </p>
+    <h1>Contact</h1>
+    <form id="contact-form">
+      <ul>
+          <li>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Peter Parker"
+              required="required">
+            
+          </li>
+          <li>
+              <label for="email">Email</label>
+              <input type="text" name="email"
+              id="name" placeholder="peterparker@email.com"
+              required="required">
+          </li>
+          <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message"
+              required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit" name="submit">
+    </form>
  </section>
  <section class="sidebar">
      <div id="side">
@@ -53,10 +60,9 @@
 
  </section>
  <section class="footer">
-     <div id="foot">
-         <h4>&copy; Charles Hair</h4>
-     </div>
- </section>
-    
+        <div id="foot">
+            <h4>&copy; Charles Hair</h4>
+        </div>
+    </section>  
 </body>
 </html>
