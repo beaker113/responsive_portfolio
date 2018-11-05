@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -225,7 +227,7 @@ input[type=submit] {
   
   
   @media only screen and (max-width: 768px) {
-    .main-section,
+    .main-container,
     .sidebar {
       max-width: 100%;
     }
@@ -260,13 +262,13 @@ input[type=submit] {
   }
   
   @media only screen and (max-width: 640px){
-    #masthead {
-      /* Positioning */
+    #mainhead {
+     
       position: static;
       margin-bottom: 10px;
     }
   
-    header .container {
+    header.container {
       padding: 0;
     }
   
@@ -281,10 +283,10 @@ input[type=submit] {
     }
   
     nav {
-      /* Box-model */
+      
       width: 100%;
   
-      /* Positioning */
+      
       margin: 20px 0;
   
       
@@ -292,11 +294,11 @@ input[type=submit] {
     }
   
     nav a {
-      /* Box-model */
+      
       width: 30%;
       padding-left: 0;
   
-      /* Positioning */
+      
       margin-left: 0;
     }
   }
