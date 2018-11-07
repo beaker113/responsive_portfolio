@@ -235,10 +235,6 @@ input[type=submit] {
     max-width: 100%;
     }
   
-    main {
-    overflow: auto;
-    }
-  
     .work { 
     width: 48%; 
     margin-bottom: 10px;
