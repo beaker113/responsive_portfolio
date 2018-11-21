@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/unit4style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header class="header"><h1>Crystal Collector!</h1></header>
+    <div id="rules" class="container">
+        <p>At the start of the game you will be given a random number.</p>
+
+        <p>Random numbers will also be assigned to the four crystals below, however this 
+            value will be hidden from you.</p>
+
+        <p>To win the game you must match your score to the chosen number by clicking
+            on the crystals. If your score goes over the chosen number, you lose.</p>
+
+        <p>Each time the game starts, the value of each crystal will change.</p>    
+    </div>
+
+    <div id="goal" class="container">
+        <span id=rand></span>
+    </div>
+
+    <div id="winloss" class="container">
+        <p>wins:<span id="wins"></span></p>
+        <p>Losses:<span id="losses"></span></p>
+    </div>
+    <div id="crystals">
+    <!-- <img src="assets/images/crystal1.jpg" alt="crystal1" id="crystal1" val="0" class="crystals">
+    <img src="assets/images/crystal2.png" alt="crystal2" id="crystal2" val="0" class="crystals">
+    <img src="assets/images/crystal3.jpg" alt="crystal3" id="crystal3" val="0" class="crystals">
+    <img src="assets/images/crystal4.jpg" alt="crystal4" id="crystal4" val="0" class="crystals"> -->
+    </div>
+
+    <div id="thing" class="container">
+        <p>Total score:</p>
+    </div>
+
+    <div id="score" class="container">
+        <span id="points"></span>
+    </div>
+    
+
+
+    
+<script src="assets/javascript/unit4.js"></script>  
+</body>
+</html>

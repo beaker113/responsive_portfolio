@@ -1,0 +1,48 @@
+.header {
+    background-color: purple;
+    color: whitesmoke;
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-right: 75%;
+    margin-bottom: 10px;
+}
+
+#rules {
+    background-color: lightgreen;
+    color: black;
+    
+}
+
+#goal {
+    background-color: red;
+    height: 100px;
+    font-size: 80px;
+    font-style: bold;
+}
+#winloss {
+    background-color: yellow;
+}
+
+.crystals {
+    height: 100px;
+    width: 100px;
+}
+
+#thing {
+    background-color: black;
+    color: white
+}
+
+#score {
+    background-color: aqua;
+    height: 150px;
+    font-size: 100px;
+    font-style: bold;
+}
