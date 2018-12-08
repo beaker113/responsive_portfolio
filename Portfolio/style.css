@@ -162,6 +162,10 @@ h3, .sidebar, h2 {
     margin: 20px 0 25px;
     text-align: center;
 }
+.projectimage {
+    width: 285px;
+    height: 274px;
+}
 
 .work:nth-child(even) {
     margin-right: 40px
