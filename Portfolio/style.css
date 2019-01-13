@@ -30,7 +30,7 @@ p:last-child {
 h1, h2, h3 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: gray;
 }
 
 h1 {
@@ -45,7 +45,7 @@ h2, h3 {
 }
 
 #mainhead {
-    background: #fff;
+    background: greenyellow;
     margin: 0 0 30px;
     z-index: 99;
     color: #fff;
@@ -58,7 +58,7 @@ h2, h3 {
 #logo {
     width: 250px;
     height: 90px;
-    background: #4aaaa5;
+    background: black;
     float: left;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     text-align: center;
@@ -147,7 +147,7 @@ h3, .sidebar, h2 {
     color: #fff;
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid Black;
     color: #ccc;
     font-size: 12px;
     text-align: center;
@@ -178,7 +178,7 @@ h3, .sidebar, h2 {
 }
 .work h3 {
     border-bottom: 0;
-    background: #4aaaa5;
+    background: black;
     color: #fff;
     text-align: center;
     position: absolute;
