@@ -30,7 +30,7 @@ p:last-child {
 h1, h2, h3 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: gray;
+    color: red;
 }
 
 h1 {
@@ -45,7 +45,7 @@ h2, h3 {
 }
 
 #mainhead {
-    background: #666;
+    background: #fff;
     margin: 0 0 30px;
     z-index: 98;
     color: #fff;
